@@ -1,6 +1,8 @@
 🚀 How to Run
+
 1.Clone the repo
       git clone https://github.com/yourusername/ar-placement-app.git
+      (To view code select master)
 2.Open in Android Studio
 
 3.Make sure ARCore is installed on your phone
