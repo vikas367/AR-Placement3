@@ -14,6 +14,7 @@ import android.widget.ListView
 import android.widget.Toast
 import androidx.core.content.ContentProviderCompat.requireContext
 import androidx.core.view.isGone
+import com.google.android.material.button.MaterialButton
 import com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
 import com.google.ar.core.Config
 import io.github.sceneview.ar.ArSceneView
@@ -28,7 +29,7 @@ import io.github.sceneview.node.VideoNode
 class MainActivity : AppCompatActivity() {
 
     private lateinit var listView: ListView
-    private lateinit var playButton: Button
+    private lateinit var playButton: MaterialButton
     private val shapes = listOf("Cone", "Cube")
     private var selectedPosition: Int = -1  // -1 means nothing selected
 
