@@ -58,9 +58,9 @@ class ArActivity : AppCompatActivity() {
                 sceneView.planeRenderer.isVisible = true
             }
 
-//            onAnchorChanged = {
-//                placeButton.isGone = it != null
-//            }
+            onAnchorChanged = {
+                placeButton.isGone = it != null
+            }
         }
 
         sceneView.addChild(modelNode)
