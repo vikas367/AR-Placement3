@@ -1,3 +1,14 @@
+🚀 How to Run
+1.Clone the repo
+      git clone https://github.com/yourusername/ar-placement-app.git
+2.Open in Android Studio
+
+3.Make sure ARCore is installed on your phone
+
+4.Build & Run
+
+5.Place the 3D model
+
 ✨ Features
 📦 Placed a .glb 3D model (e.g.,cube, road cone) instantly in the AR scene.
 
